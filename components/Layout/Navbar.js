@@ -12,7 +12,7 @@ const Navbar = () => {
                 <div>
                     <img src='/Logo.png' />
                 </div>
-                <div class="toggler">
+                <div className="toggler">
                     <GiHamburgerMenu className={NavStlye.Toggler} onClick={showSidebar}/>
                 </div>
                 <ul className={sidebar ? `${NavStlye.navitems} active` : NavStlye.navitems}>
