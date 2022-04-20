@@ -1,0 +1,72 @@
+.industries {
+  padding: 5rem 0;
+  .heading {
+    text-align: center;
+    h3 {
+      padding-top: 1rem;
+      font-size: 36px;
+      letter-spacing: 0.2px;
+    }
+    h5 {
+      font-style: normal;
+      padding: 2rem 0 4rem 0;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 32px;
+      color: #183b56;
+    }
+  }
+}
+
+.slideItem {
+  width: 20% !important;
+  height: 400px;
+  border: solid 1px;
+  border-color: #e5eaf4;
+  margin: 2rem 1rem;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: 7px 16px 30px rgba(119, 103, 228, 0.25);
+  .slideContent {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 3rem;
+    left: 3rem;
+    .svgIcon {
+      padding: 1.5rem 0;
+      border: solid 1px;
+      border-radius: 5px;
+      border-color: #e5eaf4;
+      width: 50px;
+      height: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .slideHeading {
+      padding: 1rem 0;
+      font-size: 20px;
+      color: #183b56;
+    }
+    .list {
+      list-style: none;
+      line-height: 1.5;
+      .listItem {
+        font-size: 18px;
+        padding: 0.1rem 0;
+        font-weight: 400;
+        color: #183b56;
+      }
+    }
+    .link {
+      padding-top: 2rem;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      color: #7767e4;
+      cursor: pointer;
+    }
+  }
+}
+
