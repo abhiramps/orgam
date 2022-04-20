@@ -1,10 +1,11 @@
 .industries {
   padding: 5rem 0;
+
   .heading {
     text-align: center;
     h3 {
       padding-top: 1rem;
-      font-size: 36px;
+      font-size: 36px; 
       letter-spacing: 0.2px;
     }
     h5 {
@@ -45,6 +46,7 @@
       justify-content: center;
     }
     .slideHeading {
+      font-family: 'Glory', sans-serif;
       padding: 1rem 0;
       font-size: 20px;
       color: #183b56;
@@ -57,6 +59,12 @@
         padding: 0.1rem 0;
         font-weight: 400;
         color: #183b56;
+        display: flex;
+        align-items: center;
+        span{
+          margin-left: 1rem;
+          font-family: 'Open Sans', sans-serif;
+        }
       }
     }
     .link {

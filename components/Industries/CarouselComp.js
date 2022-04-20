@@ -7,6 +7,7 @@ import Hospital from './Svg/Hospital';
 import Retail from './Svg/Retail';
 import Warehouse from './Svg/Warehouse';
 import Logistics from './Svg/Logistics';
+import Bullet from './Svg/Bullet';
 
 const CarouselComp = () => {
     const [visibleSldeNo, setVisibleSldeNo] = useState(3)
@@ -19,8 +20,8 @@ const CarouselComp = () => {
     }, [visibleSldeNo, setVisibleSldeNo])
 
     function autoResize() {
-        if (window.innerWidth <= 1200) {setVisibleSldeNo(3)}
-        if (window.innerWidth <= 970) {setVisibleSldeNo(2)}
+        if (window.innerWidth <= 1400) { setVisibleSldeNo(3) }
+        if (window.innerWidth <= 970) { setVisibleSldeNo(2) }
         if (window.innerWidth <= 700) { setVisibleSldeNo(1) }
     }
     return (
@@ -40,10 +41,22 @@ const CarouselComp = () => {
                             </div>
                             <label className={IndStyle.slideHeading}>Hospitality</label>
                             <ul className={IndStyle.list}>
-                                <li className={IndStyle.listItem}>cooks</li>
-                                <li className={IndStyle.listItem}>Waiters</li>
-                                <li className={IndStyle.listItem}>office/Cleanup</li>
-                                <li className={IndStyle.listItem}>Delivery</li>
+                                <li className={IndStyle.listItem}>
+                                    <Bullet />
+                                    <span>cooks</span>
+                                </li>
+                                <li className={IndStyle.listItem}>
+                                    <Bullet />
+                                    <span>Waiters</span>
+                                </li>
+                                <li className={IndStyle.listItem}>
+                                    <Bullet />
+                                    <span>office/Cleanup</span>
+                                </li>
+                                <li className={IndStyle.listItem}>
+                                    <Bullet />
+                                    <span>Delivery</span>
+                                </li>
                             </ul>
                             <div className={IndStyle.link}>
                                 <a href='#'>learn more &rarr;</a>
@@ -57,10 +70,22 @@ const CarouselComp = () => {
                             </div>
                             <h5 className={IndStyle.slideHeading}>Retail</h5>
                             <ul className={IndStyle.list}>
-                                <li className={IndStyle.listItem}>cashers</li>
-                                <li className={IndStyle.listItem}>Sales Associate</li>
-                                <li className={IndStyle.listItem}>Store manager</li>
-                                <li className={IndStyle.listItem}>Store warehouse</li>
+                                <li className={IndStyle.listItem}>
+                                    <Bullet />
+                                    <span>cashers</span>
+                                </li>
+                                <li className={IndStyle.listItem}>
+                                    <Bullet />
+                                    <span>Sales Associate</span>
+                                </li>
+                                <li className={IndStyle.listItem}>
+                                    <Bullet />
+                                    <span>Store manager</span>
+                                </li>
+                                <li className={IndStyle.listItem}>
+                                    <Bullet />
+                                    <span>Store warehouse</span>
+                                </li>
                             </ul>
                             <div className={IndStyle.link}>
                                 <a href='#'>learn more &rarr;</a>
@@ -74,10 +99,22 @@ const CarouselComp = () => {
                             </div>
                             <h5 className={IndStyle.slideHeading}>Warehousig</h5>
                             <ul className={IndStyle.list}>
-                                <li className={IndStyle.listItem}>Waraehouse worker</li>
-                                <li className={IndStyle.listItem}>Stock cleark</li>
-                                <li className={IndStyle.listItem}>merchandise pickup</li>
-                                <li className={IndStyle.listItem}>Dispatchers</li>
+                                <li className={IndStyle.listItem}>
+                                    <Bullet />
+                                    <span>Waraehouse worker</span>
+                                </li>
+                                <li className={IndStyle.listItem}>
+                                    <Bullet />
+                                    <span>Stock cleark</span>
+                                </li>
+                                <li className={IndStyle.listItem}>
+                                    <Bullet />
+                                    <span>merchandise pickup</span>
+                                </li>
+                                <li className={IndStyle.listItem}>
+                                    <Bullet />
+                                    <span>Dispatchers</span>
+                                </li>
                             </ul>
                             <div className={IndStyle.link}>
                                 <a href='#'>learn more &rarr;</a>
@@ -91,10 +128,22 @@ const CarouselComp = () => {
                             </div>
                             <h5 className={IndStyle.slideHeading}>Logistics</h5>
                             <ul className={IndStyle.list}>
-                                <li className={IndStyle.listItem}>Waraehouse worker</li>
-                                <li className={IndStyle.listItem}>Stock cleark</li>
-                                <li className={IndStyle.listItem}>merchandise pickup</li>
-                                <li className={IndStyle.listItem}>Dispatchers</li>
+                                <li className={IndStyle.listItem}>
+                                    <Bullet />
+                                    <span>Waraehouse worker</span>
+                                </li>
+                                <li className={IndStyle.listItem}>
+                                    <Bullet />
+                                    <span>Stock cleark</span>
+                                </li>
+                                <li className={IndStyle.listItem}>
+                                    <Bullet />
+                                    <span>merchandise pickup</span>
+                                </li>
+                                <li className={IndStyle.listItem}>
+                                    <Bullet />
+                                    <span>Dispatchers</span>
+                                </li>
                             </ul>
                             <div className={IndStyle.link}>
                                 <a href='#'>learn more &rarr;</a>
